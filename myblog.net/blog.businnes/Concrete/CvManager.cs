@@ -1,4 +1,5 @@
 ﻿using blog.businnes.Abstract;
+using blog.data.Concrete.EfCoreMysql;
 using myblog.Entity;
 using System;
 using System.Collections.Generic;
@@ -10,24 +11,25 @@ namespace blog.businnes.Concrete
 {
     public class CvManager : ICvService
     {
+        EfCvRepository _Cv = new EfCvRepository();
         public void create(Cv t)
         {
-            throw new NotImplementedException();
+            _Cv.create(t);
         }
 
         public Cv GetById(int id)
         {
-            throw new NotImplementedException();
+            return _Cv.GetById(id); 
         }
 
         public List<Cv> GetList()
         {
-            throw new NotImplementedException();
+            return _Cv.GetList();
         }
 
         public void update(Cv t)
         {
-            throw new NotImplementedException();
+            _Cv.update(t);
         }
     }
 }

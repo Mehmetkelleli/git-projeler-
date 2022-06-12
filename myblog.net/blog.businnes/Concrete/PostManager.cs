@@ -1,4 +1,5 @@
 ﻿using blog.businnes.Abstract;
+using blog.data.Concrete.EfCoreMysql;
 using myblog.Entity;
 using System;
 using System.Collections.Generic;
@@ -10,24 +11,25 @@ namespace blog.businnes.Concrete
 {
     public class PostManager : IPostService
     {
+        EfPostRepository _post = new EfPostRepository();
         public void create(Post t)
         {
-            throw new NotImplementedException();
+            _post.create(t);
         }
 
         public Post GetById(int id)
         {
-            throw new NotImplementedException();
+            return _post.GetById(id); _
         }
 
         public List<Post> GetList()
         {
-            throw new NotImplementedException();
+            return _post.GetList();
         }
 
         public void update(Post t)
         {
-            throw new NotImplementedException();
+            _post.update(t);
         }
     }
 }

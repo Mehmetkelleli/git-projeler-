@@ -1,4 +1,5 @@
 ﻿using blog.businnes.Abstract;
+using blog.data.Concrete.EfCoreMysql;
 using myblog.Entity;
 using System;
 using System.Collections.Generic;
@@ -10,24 +11,25 @@ namespace blog.businnes.Concrete
 {
     public class SettingManager : ISettingService
     {
+        EfSettingRepository _setting = new EfSettingRepository();
         public void create(Setting t)
         {
-            throw new NotImplementedException();
+            _setting.create(t);
         }
 
         public Setting GetById(int id)
         {
-            throw new NotImplementedException();
+            return _setting.GetById(id);
         }
 
         public List<Setting> GetList()
         {
-            throw new NotImplementedException();
+            return _setting.GetList();
         }
 
         public void update(Setting t)
         {
-            throw new NotImplementedException();
+            _setting.update(t);
         }
     }
 }
