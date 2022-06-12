@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ynn2ulEVsaaEmvPyqiyrYAuSoiV/L2Z0NUBfhj4AZoUquimg6BJpAFfJt6cVuakmRT3ZhZ/Nf2G+vTwu/q0Mbw==",
+  "dgSpecHash": "sex1uJTmH/d8gzQgtiPj01ExIL+J+5z4EiVjttsb5agsDdB1EctTNosRnwF50c5CwWnXdTWUDlTeZZNl79MWrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\myblog\\data\\blog.data.csproj",
+  "projectFilePath": "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\myblog.net\\data\\blog.data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mehmet Kelleli\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Mehmet Kelleli\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

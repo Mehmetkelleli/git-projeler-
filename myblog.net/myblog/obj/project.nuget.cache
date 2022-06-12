@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JyXNAnEuDSfvkYcgltjTY9ZisY6IvQ+ZC/n95c62i54HnDooy1ZxojTyxxxG+Lx8CIZnYvrBdW0vUsJIllkxDg==",
+  "dgSpecHash": "H+UQVu0m8iO1q1ZCg9594GsXF8q7QcJ9LF/Gj/SoAW4mCeB5yhfF0fGxEOm4KFHB+euTCzvBjEpD6EWE+gdbYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\myblog\\myblog\\myblog.csproj",
+  "projectFilePath": "C:\\Users\\Mehmet Kelleli\\Desktop\\myblog\\myblog.net\\myblog\\myblog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mehmet Kelleli\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Mehmet Kelleli\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
